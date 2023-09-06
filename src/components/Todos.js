@@ -1,5 +1,5 @@
 import React from 'react'
-import { UseSelector} from 'react-redux'
+import { useSelector} from 'react-redux'
 
 function Todos(){
     const todos=useSelector(state=>state.todos)
